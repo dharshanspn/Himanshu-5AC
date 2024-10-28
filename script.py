@@ -43,7 +43,7 @@ def refresh_account(account):
     # Attempt to log in
     flag_login = True
     while flag_login:
-        flag_login = login_to_chegg(username, password, driver,account_name)
+        flag_login = login_to_chegg(username, password, driver)
 
 
     # Start refreshing for the account
